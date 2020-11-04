@@ -1,0 +1,13 @@
+{
+  "name": "pyro/todos-module",
+  "type": "streams-addon",
+  "autoload": {
+    "psr-4": {
+      "Pyro\\TodosModule\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "require": {
+  }
+}

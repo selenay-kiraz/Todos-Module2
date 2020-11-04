@@ -1,0 +1,113 @@
+/**
+
+
+"edit.twig" için "stil.css" kullanılmıştır.
+
+
+ */
+
+
+body
+{
+    text-align: left;
+    background: gray;
+
+}
+.baslik
+{
+    background: #5d6f86;
+    padding: 25px;
+
+}
+
+.baslik h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container-fluid
+{
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 25px;
+}
+.card-block
+{
+  padding-top: 50px ;
+}
+.card .name label
+{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+#name.form-control
+{
+    padding: 3px;
+}
+.user_id label
+{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+#user_id.custom-select
+{
+    padding: 3px;
+}
+button
+{
+   left: 0;
+    display: inline-block;
+}
+button.update
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+}
+button.save_exit
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+}button.cancel
+{
+     background-color: #e7e7e7;
+     color: black;
+     border: none;
+     padding: 12px 28px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 14px;
+     border-radius: 3px;
+}
+ .cancel a {
+     text-decoration: none;
+ }
+span
+{
+    color: red;
+}
+.update a {
+    text-decoration: none;
+}
